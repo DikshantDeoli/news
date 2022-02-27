@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Header from './Header';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import './assets/main.css';
+import App from "./App";
+import Header from "./Header";
 
-ReactDOM.render(
-  <React.StrictMode>
+ReactDOM.render((
+  <React.Fragment>
     <Header />
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  </React.Fragment>
+), document.getElementById("root"));
