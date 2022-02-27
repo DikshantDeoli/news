@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <nav >
+    <nav className="flex flex-row justify-around w-full py-4 px-48">
       <a>Technology</a>
       <a>Design</a>
       <a>Culture</a>
