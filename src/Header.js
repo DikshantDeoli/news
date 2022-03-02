@@ -1,7 +1,7 @@
 
 function Header() {
     return (
-        <div className="flex flex-row justify-center w-full pt-6 pb-2 px-48">
+        <div className="flex flex-row justify-center w-full pt-6 pb-2 px-48 border-b-2">
             <div className='flex justify-center w-full '>
                 {/* button to subcribe */}
                 <button className='text-blue-600 text-sm font-semibold '>SUBCRIBE</button>
